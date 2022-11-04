@@ -96,3 +96,65 @@ text-decoration: none;
 .active-link{
 background-color: rgba(255, 63, 64, 1);
 }
+/* main */
+/* intro */
+.intro-wrapper{
+    display: block;
+    width: 100%;
+    padding: 102px 0px 110px;
+    background-color: rgba(246, 242, 242, 1);
+}
+.intro{
+    display: flex;
+    width: 1249px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.intro-info{
+    max-width: 590px;
+}
+.inro-heading{
+font-family: 'Open Sans';
+font-size: 60px;
+line-height: 72px;
+font-weight: 800;
+letter-spacing: 1.5px;
+text-transform: uppercase;
+margin: 0;
+margin-bottom: 19px;
+margin-top: -15px;
+}
+.intro-special{
+    letter-spacing: 6px;  
+}
+.intro-text{
+font-family: 'Open Sans';
+font-size: 16px;
+line-height: 28px;
+font-weight: 400;
+margin: 0;
+margin-bottom: 58px;
+}
+.intro-action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 227px;
+    min-height: 55px;
+    padding: 0.5em 1em;
+    box-sizing: border-box;
+    color:#fff;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    line-height: 34px;
+    font-weight: 700;
+    background-color: #FF2D2D;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.intro-video{
+    width: 551px;
+    min-height: 356px;
+    object-fit: cover;
+    box-shadow: -2.2px -13.8px 73px rgba(0, 0, 0, 0.29);
+}
