@@ -393,9 +393,16 @@ grid-row: 1/3;
     display: flex;
     flex-direction: column; 
 }
-@supports(display: contents){
+/* @supports(display: contents){
     .team__inner{
     display: contents;
+    }
+} */
+@supports(grid-template-columns: subgrid){
+    .team__inner{
+        display: grid;
+        grid-template-columns: subgrid;
+        grid-template-rows: subgrid;
     }
 }
 .team__lead-main{
